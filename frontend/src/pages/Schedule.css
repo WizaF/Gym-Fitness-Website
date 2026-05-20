@@ -1,0 +1,120 @@
+.Schedule {
+  width: 50%;
+}
+
+.GoBack {
+  background: #d2c1c83e;
+  outline: none;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    background: #ebebeb8f;
+  }
+}
+.GoBack a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Card-parent {
+  width: 100%;
+}
+
+.Card {
+  margin: auto;
+  border-radius: 20px;
+  /* min-width: 400px; */
+  background: linear-gradient(45deg, #897aff, #3ce6b0);
+  /* animation: bg_color 5s ease-in-out 1s infinite;  */
+  /* direction fill-mode; */
+  margin: 20px;
+}
+
+.Card-image {
+  width: 100%;
+  margin: auto;
+}
+
+.Card-image img {
+  width: 100%;
+  border-radius: 20px;
+  /* filter: saturate(10%); */
+}
+
+.Card-Name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex_name {
+  width: 75%;
+  contain: content;
+}
+
+.no_of_set {
+  min-width: 20%;
+}
+
+.Desc {
+  padding: 5px 20px;
+}
+
+.Desc p {
+  text-align: end;
+}
+
+@media (min-width: 1000px) {
+  .Card-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Card {
+    width: 30%;
+    min-width: 400px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+  .Card-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 516px) and (max-width: 699px) {
+  .Card-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Card {
+    width: 70%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 515px) {
+  .Card-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Card {
+    width: 100%;
+  }
+}

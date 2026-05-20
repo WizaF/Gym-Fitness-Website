@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Protest+Riot&display=swap");
+@import url("https://fonts.cdnfonts.com/css/trebuchet-ms-2");
+@import "tailwindcss";
+
+for rotate:-
+hover:rotate-12 hover:scale-105 transition-transform duration-300  
+
+   id: 1,
+    name: "Meera Joshi",
+    avatar: "MJ",
+    content:
+      "Your beginner's guide video literally changed how I think about training. Watched it 4 times already!",
+    likes: 342,
+    color: "bg-red-400/15 text-red-300",
